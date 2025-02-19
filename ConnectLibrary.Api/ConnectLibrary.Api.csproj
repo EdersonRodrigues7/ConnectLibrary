@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ConnectLibrary.Application\ConnectLibrary.Application.csproj" />
     <ProjectReference Include="..\ConnectLibrary.Persistence\ConnectLibrary.Persistence.csproj" />
   </ItemGroup>
 

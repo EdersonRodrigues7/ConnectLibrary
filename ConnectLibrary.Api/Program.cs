@@ -1,8 +1,10 @@
+using ConnectLibrary.Application.Services;
 using ConnectLibrary.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.ConfigurePersistenceApp(builder.Configuration);
+builder.Services.ConfigureApplicationApp();
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
