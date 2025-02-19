@@ -9,14 +9,16 @@
   <ItemGroup>
     <Folder Include="Behaviors\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="UseCases\User\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
-    <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectLibrary.Domain\ConnectLibrary.Domain.csproj" />
   </ItemGroup>
 
 </Project>
